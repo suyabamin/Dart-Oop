@@ -32,8 +32,9 @@ obj.myFunction();
 
 
 ///enheritance
-   var FatherObj=new Father();
-   FatherObj.FathesMoney();
+///for abstruction
+   //var FatherObj=new Father();
+   //FatherObj.FathesMoney();
   //axess with son class
   var sonObj=new Son();
   sonObj.FathesMoney();
