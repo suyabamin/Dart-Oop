@@ -1,5 +1,5 @@
 import 'Example.dart';
-import 'Father.dart';
+//import 'Father.dart';
 import 'MyClass.dart';
 import 'Son.dart';
 
@@ -40,9 +40,11 @@ obj.myFunction();
   var sonObj=new Son();
   sonObj.FathesMoney();
 
-var obJ=new Example();
-obJ.SetAge=50;
-print(obJ.getAge);
+
+//encapsolation ,get set
+var objct=new Example();
+objct.SetAge=50;
+print(objct.getAge);
 
 
   }
