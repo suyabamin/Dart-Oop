@@ -1,4 +1,6 @@
+import 'Father.dart';
 import 'MyClass.dart';
+import 'Son.dart';
 
 void main(){
   print("hello world");
@@ -27,5 +29,13 @@ void main(){
 
 ///use of this key word related function call
 obj.myFunction();   
+
+
+///enheritance
+   var FatherObj=new Father();
+   FatherObj.FathesMoney();
+  //axess with son class
+  var sonObj=new Son();
+  sonObj.FathesMoney();
 
   }

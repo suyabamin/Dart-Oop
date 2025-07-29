@@ -1,4 +1,6 @@
 
+
+
 class Myclass {
 
 var Name="my name is suyab amin sunny";
@@ -44,8 +46,11 @@ var d=40;
     print("this sum is"+res.toString());
    }
    myFunction(){
+    //call addFuorNum() function call
     this.addfourNumber();
    }
+  
+   
 
 
 }
