@@ -1,3 +1,4 @@
+import 'Example.dart';
 import 'Father.dart';
 import 'MyClass.dart';
 import 'Son.dart';
@@ -38,5 +39,10 @@ obj.myFunction();
   //axess with son class
   var sonObj=new Son();
   sonObj.FathesMoney();
+
+var obJ=new Example();
+obJ.SetAge=50;
+print(obJ.getAge);
+
 
   }
